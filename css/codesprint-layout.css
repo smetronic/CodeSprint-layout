@@ -1,0 +1,176 @@
+/*
+* CodeSprint UI
+* Author : SikanderBaloch
+* Website : www.sikander.co
+* Copyright © 2013
+*/
+
+/*Content-Container*/
+.content {
+display: block;
+margin: 0 auto;
+}
+
+/*Blocks-positioning*/
+.pos-right {
+float: right;
+}
+.pos-left {
+float: left;
+}
+.pos-center {
+left: 40%;
+position: absolute;
+margin: 0 auto;
+}
+
+/*Spaces-> margin*/
+.space-1    { margin: 5px   }
+.space-2    { margin: 10px  }
+.space-3    { margin: 15px  }
+.space-4    { margin: 20px  }
+.space-5    { margin: 25px  }
+
+/*Row -> height*/
+.container .row-1   { height: 30px  }
+.container .row-2   { height: 90px  }
+.container .row-3   { height: 120px }
+.container .row-4   { height: 150px }
+.container .row-5   { height: 180px }
+.container .row-6   { height: 210px }
+.container .row-7   { height: 240px }
+.container .row-8   { height: 270px }
+.container .row-9   { height: 300px }
+.container .row-10  { height: 330px }
+.container .row-11  { height: 360px }
+.container .row-12  { height: 390px }
+.container .row-12  { height: 420px }
+
+/*Block-grid*/
+.container .blocks.one,
+.container .blocks.two,
+.container .blocks.three,
+.container .blocks.four,
+.container .blocks.five,
+.container .blocks.six,
+.container .blocks.seven,
+.container .blocks.eight,
+.container .blocks.nine,
+.container .blocks.ten,
+.container .blocks.eleven,
+.container .blocks.twelve,
+.container .blocks.thirteen,
+.container .blocks.fourteen,
+.container .blocks.fifteen,
+.container .blocks.sixteen,
+.container .blocks.seventeen,
+.container .blocks.eighteen,
+.container .blocks.nineteen,
+.container .blocks.twenty 	{	width: 	100% }
+
+/*Row-full*/
+.row {
+float: left;
+clear: both;
+width: 100%;
+}
+
+/*Main-Container*/
+.container .columns {
+float: left;
+padding-right: 1em;
+padding-left: 1em;
+}
+
+.container .columns.one,
+.container .columns.two,
+.container .columns.three,
+.container .columns.four,
+.container .columns.five,
+.container .columns.six,
+.container .columns.seven,
+.container .columns.eight,
+.container .columns.nine,
+.container .columns.ten,
+.container .columns.eleven,
+.container .columns.twelve,
+.container .columns.thirteen,
+.container .columns.fourteen,
+.container .columns.fifteen,
+.container .columns.sixteen 	{	width: 	100%	}
+
+.container {
+	width: 100%;
+}
+	
+
+.clearfix:after,
+.container:after {
+content: '';
+display: block;
+overflow: hidden;
+visibility: hidden;
+width: 0;
+height: 0;
+clear: both;
+}
+
+.clearfix,
+.container {
+	zoom: 1; 
+}
+
+/*Default width*/
+@media only screen and (min-width: 450px) {
+	
+	body {
+		font-size: 1em;
+		line-height: 1.5em;
+	}
+
+/*Columns-grid*/
+.container .columns.one 		{	width: 	6.25%	}
+.container .columns.two 		{	width: 	12.5%	}
+.container .columns.three 		{	width: 	18.75%	}
+.container .columns.four 		{	width: 	25%		}
+.container .columns.five 		{	width: 	31.25%	}
+.container .columns.six 		{	width: 	37.5%	}
+.container .columns.seven 		{	width: 	43.75%	}
+.container .columns.eight 		{	width: 	50%		}
+.container .columns.nine 		{	width: 	56.25%	}
+.container .columns.ten 		{	width: 	62.5%	}
+.container .columns.eleven 		{	width: 	68.75%	}
+.container .columns.twelve 		{	width: 	75%		}
+.container .columns.thirteen 	{	width: 	81.25%	}
+.container .columns.fourteen 	{	width: 	87.5%	}
+.container .columns.fifteen 	{	width: 	93.75%	}
+.container .columns.sixteen 	{	width: 	100%    }
+
+/*Block-grid*/
+.container .blocks.one 		    {	width: 	5%	    }
+.container .blocks.two 		    {	width: 	10%	    }
+.container .blocks.three 	    {	width: 	15%	    }
+.container .blocks.four 		{	width: 	20%	    }
+.container .blocks.five 		{	width: 	25%	    }
+.container .blocks.six 		    {	width: 	30%	    }
+.container .blocks.seven 	    {	width: 	35%	    }
+.container .blocks.eight 	    {	width: 	40%     }
+.container .blocks.nine 		{	width: 	45%	    }
+.container .blocks.ten 		    {	width: 	50%	    }
+.container .blocks.eleven 	    {	width: 	55%	    }
+.container .blocks.twelve 	    {	width: 	60%	    }
+.container .blocks.thirteen 	{	width: 	65%	    }
+.container .blocks.fourteen 	{	width: 	70%	    }
+.container .blocks.fifteen 	    {	width: 	75%	    }
+.container .blocks.sixteen 	    {	width: 	80%	    }
+.container .blocks.seventeen    {	width: 	85%	    }
+.container .blocks.eighteen 	{	width: 	90%	    }
+.container .blocks.nineteen 	{	width: 	95%	    }
+.container .blocks.twenty 	    {	width: 	100%    }
+
+	.container {
+        width: 90%;
+		margin: 0 auto;	
+        margin-top: 30px;
+	}
+}
